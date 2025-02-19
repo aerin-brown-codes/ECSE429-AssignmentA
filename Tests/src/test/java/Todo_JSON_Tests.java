@@ -87,6 +87,81 @@ public class Todo_JSON_Tests {
     }
 
     @Test
+    public void getTodo() throws MalformedURLException, IOException {
+        // arrange
+        URL url = new URL(BASE_URL + "/1");
+        HttpURLConnection con = (HttpURLConnection) url.openConnection();
+        con.setRequestMethod("GET");
+
+        // act
+        int status = con.getResponseCode();
+        BufferedReader in = new BufferedReader(
+                new InputStreamReader(con.getInputStream()));
+        String inputLine;
+        StringBuilder content = new StringBuilder();
+        while ((inputLine = in.readLine()) != null) {
+            content.append(inputLine);
+        }
+        in.close();
+        String result = content.toString();
+        con.disconnect();
+
+        // assert
+        assertEquals(200, status);
+        assertEquals("{\"todos\":[{\"id\":\"1\",\"title\":\"scan paperwork\",\"doneStatus\":\"false\",\"description\":\"\",\"tasksof\":[{\"id\":\"1\"}],\"categories\":[{\"id\":\"1\"}]}]}", result);
+    }
+
+    @Test
+    public void getTodoProjects() throws MalformedURLException, IOException {
+        // arrange
+        URL url = new URL(BASE_URL + "/1/tasksof");
+        HttpURLConnection con = (HttpURLConnection) url.openConnection();
+        con.setRequestMethod("GET");
+
+        // act
+        int status = con.getResponseCode();
+        BufferedReader in = new BufferedReader(
+                new InputStreamReader(con.getInputStream()));
+        String inputLine;
+        StringBuilder content = new StringBuilder();
+        while ((inputLine = in.readLine()) != null) {
+            content.append(inputLine);
+        }
+        in.close();
+        String result = content.toString();
+        con.disconnect();
+
+        // assert
+        assertEquals(200, status);
+        assertEquals("{\"projects\":[{\"id\":\"1\",\"title\":\"Office Work\",\"completed\":\"false\",\"active\":\"false\",\"description\":\"\",\"tasks\":[{\"id\":\"1\"},{\"id\":\"2\"}]}]}", result);
+    }
+
+    @Test
+    public void getTodoCategories() throws MalformedURLException, IOException {
+        // arrange
+        URL url = new URL(BASE_URL + "/1/categories");
+        HttpURLConnection con = (HttpURLConnection) url.openConnection();
+        con.setRequestMethod("GET");
+
+        // act
+        int status = con.getResponseCode();
+        BufferedReader in = new BufferedReader(
+                new InputStreamReader(con.getInputStream()));
+        String inputLine;
+        StringBuilder content = new StringBuilder();
+        while ((inputLine = in.readLine()) != null) {
+            content.append(inputLine);
+        }
+        in.close();
+        String result = content.toString();
+        con.disconnect();
+
+        // assert
+        assertEquals(200, status);
+        assertEquals("{\"categories\":[{\"id\":\"1\",\"title\":\"Office\",\"description\":\"\"}]}", result);
+    }
+
+    @Test
     public void testCreateTodo() throws MalformedURLException, IOException {
         // arrange
         URL url = new URL(BASE_URL);
