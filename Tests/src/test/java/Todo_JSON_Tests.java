@@ -86,4 +86,35 @@ public class Todo_JSON_Tests {
         assertEquals("{\"todos\":[{\"id\":\"1\",\"title\":\"scan paperwork\",\"doneStatus\":\"false\",\"description\":\"\",\"categories\":[{\"id\":\"1\"}],\"tasksof\":[{\"id\":\"1\"}]},{\"id\":\"2\",\"title\":\"file paperwork\",\"doneStatus\":\"false\",\"description\":\"\",\"tasksof\":[{\"id\":\"1\"}]}]}", result);
     }
 
+    @Test
+    public void testCreateTodo() throws MalformedURLException, IOException {
+        // arrange
+        URL url = new URL(BASE_URL);
+        HttpURLConnection con = (HttpURLConnection) url.openConnection();
+        con.setRequestProperty("Content-Type", "application/json");
+        con.setRequestMethod("POST");
+        con.setDoOutput(true); 
+        String jsonInputString = "{\"title\":\"test\",\"doneStatus\":false,\"description\":\"test\"}";
+        try(OutputStream os = con.getOutputStream()) {
+            byte[] input = jsonInputString.getBytes("utf-8");
+            os.write(input, 0, input.length);
+        }
+
+        // act
+        int status = con.getResponseCode();
+        BufferedReader in = new BufferedReader(
+                new InputStreamReader(con.getInputStream()));
+        String inputLine;
+        StringBuilder content = new StringBuilder();
+        while ((inputLine = in.readLine()) != null) {
+            content.append(inputLine);
+        }
+        in.close();
+        String result = content.toString();
+        con.disconnect();
+
+        // assert
+        assertEquals(201, status);
+        assertEquals("{\"id\":\"3\",\"title\":\"test\",\"doneStatus\":\"false\",\"description\":\"test\"}", result);
+    }
 }
