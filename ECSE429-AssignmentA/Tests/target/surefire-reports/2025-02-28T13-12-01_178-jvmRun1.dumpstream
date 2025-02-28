@@ -1,0 +1,1781 @@
+# Created at 2025-02-28T13:12:02.290
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Valid Model Names -model='.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Valid Model Names -model='.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:02.292
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:02.309
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Model todoManager : Number of app versions available (e.g. -version=2, -versionName=profile1) are: 4'.
+
+# Created at 2025-02-28T13:12:02.310
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '1 - v0 : prototype'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '1 - v0 : prototype'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:02.310
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2 - v1 : non compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2 - v1 : non compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:02.311
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '3 - v2 : compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '3 - v2 : compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:02.312
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '4 - v3 : compressed relationships with ids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '4 - v3 : compressed relationships with ids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:02.347
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Using model todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Using model todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:02.348
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Will configure app as release version v3 : compressed relationships with ids '.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Will configure app as release version v3 : compressed relationships with ids '.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:02.381
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running on 4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running on 4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:02.382
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ' e.g. http://localhost:4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command ' e.g. http://localhost:4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:03.899
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Valid Model Names -model='.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Valid Model Names -model='.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:03.900
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:03.915
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Model todoManager : Number of app versions available (e.g. -version=2, -versionName=profile1) are: 4'.
+
+# Created at 2025-02-28T13:12:03.916
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '1 - v0 : prototype'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '1 - v0 : prototype'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:03.916
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2 - v1 : non compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2 - v1 : non compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:03.917
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '3 - v2 : compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '3 - v2 : compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:03.917
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '4 - v3 : compressed relationships with ids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '4 - v3 : compressed relationships with ids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:03.934
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Using model todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Using model todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:03.935
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Will configure app as release version v3 : compressed relationships with ids '.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Will configure app as release version v3 : compressed relationships with ids '.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:03.959
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running on 4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running on 4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:03.959
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ' e.g. http://localhost:4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command ' e.g. http://localhost:4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:05.459
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Valid Model Names -model='.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Valid Model Names -model='.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:05.460
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:05.475
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Model todoManager : Number of app versions available (e.g. -version=2, -versionName=profile1) are: 4'.
+
+# Created at 2025-02-28T13:12:05.475
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '1 - v0 : prototype'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '1 - v0 : prototype'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:05.476
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2 - v1 : non compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2 - v1 : non compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:05.476
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '3 - v2 : compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '3 - v2 : compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:05.477
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '4 - v3 : compressed relationships with ids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '4 - v3 : compressed relationships with ids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:05.496
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Using model todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Using model todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:05.497
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Will configure app as release version v3 : compressed relationships with ids '.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Will configure app as release version v3 : compressed relationships with ids '.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:05.517
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running on 4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running on 4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:05.517
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ' e.g. http://localhost:4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command ' e.g. http://localhost:4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:07.038
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Valid Model Names -model='.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Valid Model Names -model='.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:07.039
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:07.056
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Model todoManager : Number of app versions available (e.g. -version=2, -versionName=profile1) are: 4'.
+
+# Created at 2025-02-28T13:12:07.057
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '1 - v0 : prototype'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '1 - v0 : prototype'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:07.057
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2 - v1 : non compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2 - v1 : non compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:07.058
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '3 - v2 : compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '3 - v2 : compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:07.058
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '4 - v3 : compressed relationships with ids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '4 - v3 : compressed relationships with ids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:07.078
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Using model todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Using model todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:07.078
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Will configure app as release version v3 : compressed relationships with ids '.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Will configure app as release version v3 : compressed relationships with ids '.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:07.102
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running on 4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running on 4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:07.103
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ' e.g. http://localhost:4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command ' e.g. http://localhost:4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:08.600
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Valid Model Names -model='.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Valid Model Names -model='.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:08.600
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:08.619
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Model todoManager : Number of app versions available (e.g. -version=2, -versionName=profile1) are: 4'.
+
+# Created at 2025-02-28T13:12:08.619
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '1 - v0 : prototype'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '1 - v0 : prototype'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:08.620
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2 - v1 : non compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2 - v1 : non compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:08.620
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '3 - v2 : compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '3 - v2 : compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:08.621
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '4 - v3 : compressed relationships with ids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '4 - v3 : compressed relationships with ids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:08.642
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Using model todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Using model todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:08.643
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Will configure app as release version v3 : compressed relationships with ids '.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Will configure app as release version v3 : compressed relationships with ids '.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:08.669
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running on 4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running on 4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:08.669
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ' e.g. http://localhost:4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command ' e.g. http://localhost:4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:09.586
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '<todos><todo><doneStatus>false</doneStatus><description/><tasksof><id>1</id></tasksof><id>1</id><categories><id>1</id></categories><title>scan paperwork</title></todo><todo><doneStatus>false</doneStatus><description/><tasksof><id>1</id></tasksof><id>2</id><title>file paperwork</title></todo></todos>'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '<todos><todo><doneStatus>false</doneStatus><description/><tasksof><id>1</id></tasksof><id>1</id><categories><id>1</id></categories><title>scan paperwork</title></todo><todo><doneStatus>false</doneStatus><description/><tasksof><id>1</id></tasksof><id>2</id><title>file paperwork</title></todo></todos>'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:10.145
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Valid Model Names -model='.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Valid Model Names -model='.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:10.146
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:10.161
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Model todoManager : Number of app versions available (e.g. -version=2, -versionName=profile1) are: 4'.
+
+# Created at 2025-02-28T13:12:10.162
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '1 - v0 : prototype'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '1 - v0 : prototype'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:10.162
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2 - v1 : non compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2 - v1 : non compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:10.163
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '3 - v2 : compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '3 - v2 : compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:10.163
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '4 - v3 : compressed relationships with ids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '4 - v3 : compressed relationships with ids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:10.181
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Using model todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Using model todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:10.182
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Will configure app as release version v3 : compressed relationships with ids '.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Will configure app as release version v3 : compressed relationships with ids '.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:10.202
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running on 4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running on 4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:10.203
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ' e.g. http://localhost:4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command ' e.g. http://localhost:4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:11.676
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Valid Model Names -model='.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Valid Model Names -model='.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:11.677
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:11.692
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Model todoManager : Number of app versions available (e.g. -version=2, -versionName=profile1) are: 4'.
+
+# Created at 2025-02-28T13:12:11.692
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '1 - v0 : prototype'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '1 - v0 : prototype'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:11.693
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2 - v1 : non compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2 - v1 : non compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:11.693
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '3 - v2 : compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '3 - v2 : compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:11.693
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '4 - v3 : compressed relationships with ids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '4 - v3 : compressed relationships with ids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:11.711
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Using model todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Using model todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:11.712
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Will configure app as release version v3 : compressed relationships with ids '.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Will configure app as release version v3 : compressed relationships with ids '.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:11.731
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running on 4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running on 4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:11.732
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ' e.g. http://localhost:4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command ' e.g. http://localhost:4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:13.225
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Valid Model Names -model='.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Valid Model Names -model='.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:13.226
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:13.246
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Model todoManager : Number of app versions available (e.g. -version=2, -versionName=profile1) are: 4'.
+
+# Created at 2025-02-28T13:12:13.246
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '1 - v0 : prototype'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '1 - v0 : prototype'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:13.247
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2 - v1 : non compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2 - v1 : non compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:13.247
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '3 - v2 : compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '3 - v2 : compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:13.248
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '4 - v3 : compressed relationships with ids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '4 - v3 : compressed relationships with ids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:13.268
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Using model todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Using model todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:13.268
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Will configure app as release version v3 : compressed relationships with ids '.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Will configure app as release version v3 : compressed relationships with ids '.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:13.290
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running on 4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running on 4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:13.290
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ' e.g. http://localhost:4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command ' e.g. http://localhost:4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:14.783
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Valid Model Names -model='.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Valid Model Names -model='.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:14.783
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:14.799
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Model todoManager : Number of app versions available (e.g. -version=2, -versionName=profile1) are: 4'.
+
+# Created at 2025-02-28T13:12:14.799
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '1 - v0 : prototype'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '1 - v0 : prototype'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:14.800
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2 - v1 : non compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2 - v1 : non compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:14.800
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '3 - v2 : compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '3 - v2 : compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:14.801
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '4 - v3 : compressed relationships with ids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '4 - v3 : compressed relationships with ids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:14.818
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Using model todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Using model todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:14.819
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Will configure app as release version v3 : compressed relationships with ids '.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Will configure app as release version v3 : compressed relationships with ids '.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:14.840
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running on 4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running on 4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:14.840
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ' e.g. http://localhost:4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command ' e.g. http://localhost:4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:16.359
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Valid Model Names -model='.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Valid Model Names -model='.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:16.360
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:16.375
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Model todoManager : Number of app versions available (e.g. -version=2, -versionName=profile1) are: 4'.
+
+# Created at 2025-02-28T13:12:16.375
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '1 - v0 : prototype'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '1 - v0 : prototype'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:16.376
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2 - v1 : non compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2 - v1 : non compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:16.376
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '3 - v2 : compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '3 - v2 : compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:16.377
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '4 - v3 : compressed relationships with ids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '4 - v3 : compressed relationships with ids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:16.396
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Using model todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Using model todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:16.397
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Will configure app as release version v3 : compressed relationships with ids '.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Will configure app as release version v3 : compressed relationships with ids '.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:16.417
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running on 4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running on 4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:16.417
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ' e.g. http://localhost:4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command ' e.g. http://localhost:4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:17.353
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'a'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'a'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:17.355
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '{}'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '{}'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:17.932
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Valid Model Names -model='.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Valid Model Names -model='.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:17.932
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:17.948
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Model todoManager : Number of app versions available (e.g. -version=2, -versionName=profile1) are: 4'.
+
+# Created at 2025-02-28T13:12:17.948
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '1 - v0 : prototype'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '1 - v0 : prototype'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:17.949
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2 - v1 : non compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2 - v1 : non compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:17.949
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '3 - v2 : compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '3 - v2 : compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:17.949
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '4 - v3 : compressed relationships with ids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '4 - v3 : compressed relationships with ids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:17.967
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Using model todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Using model todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:17.968
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Will configure app as release version v3 : compressed relationships with ids '.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Will configure app as release version v3 : compressed relationships with ids '.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:17.989
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running on 4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running on 4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:17.990
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ' e.g. http://localhost:4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command ' e.g. http://localhost:4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:19.487
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Valid Model Names -model='.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Valid Model Names -model='.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:19.488
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:19.504
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Model todoManager : Number of app versions available (e.g. -version=2, -versionName=profile1) are: 4'.
+
+# Created at 2025-02-28T13:12:19.504
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '1 - v0 : prototype'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '1 - v0 : prototype'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:19.505
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2 - v1 : non compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2 - v1 : non compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:19.505
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '3 - v2 : compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '3 - v2 : compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:19.506
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '4 - v3 : compressed relationships with ids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '4 - v3 : compressed relationships with ids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:19.523
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Using model todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Using model todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:19.523
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Will configure app as release version v3 : compressed relationships with ids '.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Will configure app as release version v3 : compressed relationships with ids '.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:19.545
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running on 4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running on 4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:19.545
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ' e.g. http://localhost:4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command ' e.g. http://localhost:4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:21.084
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Valid Model Names -model='.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Valid Model Names -model='.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:21.085
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:21.101
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Model todoManager : Number of app versions available (e.g. -version=2, -versionName=profile1) are: 4'.
+
+# Created at 2025-02-28T13:12:21.101
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '1 - v0 : prototype'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '1 - v0 : prototype'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:21.101
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2 - v1 : non compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2 - v1 : non compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:21.102
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '3 - v2 : compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '3 - v2 : compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:21.102
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '4 - v3 : compressed relationships with ids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '4 - v3 : compressed relationships with ids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:21.120
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Using model todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Using model todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:21.121
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Will configure app as release version v3 : compressed relationships with ids '.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Will configure app as release version v3 : compressed relationships with ids '.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:21.145
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running on 4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running on 4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:21.146
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ' e.g. http://localhost:4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command ' e.g. http://localhost:4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:22.663
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Valid Model Names -model='.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Valid Model Names -model='.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:22.664
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:22.679
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Model todoManager : Number of app versions available (e.g. -version=2, -versionName=profile1) are: 4'.
+
+# Created at 2025-02-28T13:12:22.679
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '1 - v0 : prototype'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '1 - v0 : prototype'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:22.680
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2 - v1 : non compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2 - v1 : non compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:22.680
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '3 - v2 : compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '3 - v2 : compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:22.680
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '4 - v3 : compressed relationships with ids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '4 - v3 : compressed relationships with ids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:22.699
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Using model todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Using model todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:22.700
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Will configure app as release version v3 : compressed relationships with ids '.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Will configure app as release version v3 : compressed relationships with ids '.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:22.719
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running on 4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running on 4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:22.719
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ' e.g. http://localhost:4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command ' e.g. http://localhost:4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:24.248
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Valid Model Names -model='.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Valid Model Names -model='.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:24.249
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:24.265
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Model todoManager : Number of app versions available (e.g. -version=2, -versionName=profile1) are: 4'.
+
+# Created at 2025-02-28T13:12:24.266
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '1 - v0 : prototype'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '1 - v0 : prototype'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:24.266
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2 - v1 : non compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2 - v1 : non compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:24.267
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '3 - v2 : compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '3 - v2 : compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:24.267
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '4 - v3 : compressed relationships with ids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '4 - v3 : compressed relationships with ids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:24.286
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Using model todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Using model todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:24.287
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Will configure app as release version v3 : compressed relationships with ids '.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Will configure app as release version v3 : compressed relationships with ids '.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:24.308
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running on 4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running on 4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:24.309
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ' e.g. http://localhost:4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command ' e.g. http://localhost:4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:25.803
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Valid Model Names -model='.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Valid Model Names -model='.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:25.804
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:25.819
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Model todoManager : Number of app versions available (e.g. -version=2, -versionName=profile1) are: 4'.
+
+# Created at 2025-02-28T13:12:25.820
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '1 - v0 : prototype'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '1 - v0 : prototype'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:25.820
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2 - v1 : non compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2 - v1 : non compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:25.821
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '3 - v2 : compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '3 - v2 : compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:25.821
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '4 - v3 : compressed relationships with ids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '4 - v3 : compressed relationships with ids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:25.841
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Using model todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Using model todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:25.842
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Will configure app as release version v3 : compressed relationships with ids '.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Will configure app as release version v3 : compressed relationships with ids '.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:25.862
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running on 4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running on 4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:25.863
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ' e.g. http://localhost:4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command ' e.g. http://localhost:4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:27.372
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Valid Model Names -model='.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Valid Model Names -model='.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:27.372
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:27.389
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Model todoManager : Number of app versions available (e.g. -version=2, -versionName=profile1) are: 4'.
+
+# Created at 2025-02-28T13:12:27.389
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '1 - v0 : prototype'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '1 - v0 : prototype'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:27.390
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2 - v1 : non compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2 - v1 : non compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:27.390
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '3 - v2 : compressed relationships with guids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '3 - v2 : compressed relationships with guids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:27.391
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '4 - v3 : compressed relationships with ids'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '4 - v3 : compressed relationships with ids'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:27.408
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Using model todoManager'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Using model todoManager'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:27.409
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Will configure app as release version v3 : compressed relationships with ids '.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Will configure app as release version v3 : compressed relationships with ids '.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:27.429
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Running on 4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Running on 4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-02-28T13:12:27.430
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ' e.g. http://localhost:4567'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command ' e.g. http://localhost:4567'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
