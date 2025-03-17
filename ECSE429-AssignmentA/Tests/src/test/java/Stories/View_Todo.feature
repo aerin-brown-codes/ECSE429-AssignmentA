@@ -20,4 +20,4 @@ Feature: View Todo
   Scenario: View a nonexistant todo (Error Flow)
     When the user attempts to view the todo with id 25
     Then status code 404 is received
-    And the error message is "Could not find any instances with todos/25"
+    And the error message is Could not find any instances with todos/25
