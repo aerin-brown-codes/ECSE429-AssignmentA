@@ -12,7 +12,7 @@ Feature: View Todo
     Then status code 200 is received
     And the todo with id 1 is returned in JSON format
 
-  Scenario: View all todos (Alternate Flow)
+  Scenario: View a single todo by ID with XML format (Alternate Flow)
     When the user attempts to view the todo with id 1 via XML payload
     Then status code 200 is received
     And the todo with id 1 is returned in XML format

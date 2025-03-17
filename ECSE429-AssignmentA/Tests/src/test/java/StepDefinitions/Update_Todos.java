@@ -5,18 +5,20 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
-
+import java.io.*;
 import org.junit.jupiter.api.AfterEach;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.java.en.AfterEach;
 
-public class Delete_Todos {
+public class Update_Todos {
     private static final String BASE_URL = "http://localhost:4567/todos";
     private static Process appUnderTest;
     private static final String JAR_PATH = "/Users/laurenceperreault/Documents/Application_Being_Tested/runTodoManagerRestAPI-1.5.5.jar";
@@ -65,12 +67,19 @@ public class Delete_Todos {
         return;
     }
     
-    @When("the user attempts to delete the todo with id 1 with a JSON payload")
-    public void deleteJSONTodos() throws MalformedURLException, IOException {
+    @When("the user updates the todo with id 1 to have title wash dishes, description run dishwasher, and done status false via POST")
+    public void updatePostTodos() throws MalformedURLException, IOException {
         // arrange
-        URL url = new URL(BASE_URL + "/1");
+        URL url = new URL(BASE_URL);
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
-        con.setRequestMethod("DELETE");
+        con.setRequestProperty("Content-Type", "application/json");
+        con.setRequestMethod("POST");
+        con.setDoOutput(true);
+        String jsonInputString = "{\"title\":\"wash dishes\",\"doneStatus\":false,\"description\":\"run dishwasher\"}";
+        try(OutputStream os = con.getOutputStream()) {
+            byte[] input = jsonInputString.getBytes("utf-8");
+            os.write(input, 0, input.length);
+        }
 
         // act
         int status = con.getResponseCode();
@@ -86,44 +95,29 @@ public class Delete_Todos {
         con.disconnect();
     }
 
-    @Then("status code 200 is received")
-    public void assert200() {
-        assertEquals(200, status);
+    @Then("status code 201 is received")
+    public void assert201() {
+        assertEquals(201, status);
     }
 
-    @Then("no todo with id 1 exists")
-    public void assertSuccess() {
+    @Then("a todo object is received with title wash dishes, description run dishwasher, and done status false")
+    public void assertJsonSuccess() {
+        assertEquals("{\"id\":\"3\",\"title\":\"wash dishes\",\"doneStatus\":\"false\",\"description\":\"run dishwasher\"}", result);
+    }
+
+    @When("the user updates the todo with id 1 to have title wash dishes, description run dishwasher, and done status false via PUT")
+    public void updatePutTodos() throws MalformedURLException, IOException {
         // arrange
         URL url = new URL(BASE_URL + "/1");
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
-        con.setRequestMethod("GET");
-
-        // act
-        int status = con.getResponseCode();
-        BufferedReader in = new BufferedReader(
-                new InputStreamReader(con.getErrorStream()));
-        String inputLine;
-        StringBuilder content = new StringBuilder();
-        while ((inputLine = in.readLine()) != null) {
-            content.append(inputLine);
+        con.setRequestProperty("Content-Type", "application/json");
+        con.setRequestMethod("POST");
+        con.setDoOutput(true);
+        String jsonInputString = "<todo><title>wash dishes</title><doneStatus>false</doneStatus><description>run dishwasher</description></todo>";
+        try(OutputStream os = con.getOutputStream()) {
+            byte[] input = jsonInputString.getBytes("utf-8");
+            os.write(input, 0, input.length);
         }
-        in.close();
-        String result = content.toString();
-        con.disconnect();
-
-        // assert
-        assertEquals(404, status);
-        assertEquals("{\"errorMessages\":[\"Could not find an instance with todos/1\"]}", result);
-    }
-
-    @When("the user attempts to delete the todo with id 1 with a XML payload")
-    public void deleteXMLTodos() throws MalformedURLException, IOException {
-        // arrange
-        URL url = new URL(BASE_URL + "/1");
-        HttpURLConnection con = (HttpURLConnection) url.openConnection();
-        con.setRequestProperty("Content-Type", "application/xml");
-        con.setRequestProperty("Accept", "application/xml");
-        con.setRequestMethod("DELETE");
 
         // act
         int status = con.getResponseCode();
@@ -137,17 +131,30 @@ public class Delete_Todos {
         in.close();
         String result = content.toString();
         con.disconnect();
-    }    
+    }
 
-    @When("the user attempts to delete the todo with id 25 with a JSON payload")
-    public void deleteNonexistentTodo() throws MalformedURLException, IOException {
+    @When("the user sends a PUT request for the todo with id 1 with no body")
+    public void emptyPost() throws MalformedURLException, IOException {
         // arrange
-        URL url = new URL(BASE_URL + "/25");
+        URL url = new URL(BASE_URL + "/1");
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
-        con.setRequestMethod("DELETE");
+        con.setRequestProperty("Content-Type", "application/json");
+        con.setRequestMethod("PUT");
+        con.setDoOutput(true);
+        String jsonInputString = "{}";
+        try(OutputStream os = con.getOutputStream()) {
+            byte[] input = jsonInputString.getBytes("utf-8");
+            os.write(input, 0, input.length);
+        }
 
         // act
         int status = con.getResponseCode();
+        InputStream errorStream = con.getErrorStream();
+        if (errorStream != null) {
+            BufferedReader in = new BufferedReader(new InputStreamReader(errorStream));
+        } else {
+            assertEquals(true, false);
+        }
         BufferedReader in = new BufferedReader(
                 new InputStreamReader(con.getErrorStream()));
         String inputLine;
@@ -160,14 +167,14 @@ public class Delete_Todos {
         con.disconnect();
     }
 
-    @Then("status code 404 is received")
-    public void assert404() {
+    @Then("status code 400 is received")
+    public void assert400() {
         assertEquals(400, status);
     }
     
-    @Then("the error message is Could not find any instances with todos/25")
+    @Then("the error message is title: field is mandatory")
     public void assertError() {
-        assertEquals("{\"errorMessages\":[\"Could not find any instances with todos/25\"]}", result);
+        assertEquals("{\"errorMessages\":[\"title : field is mandatory\"]}", result);
     }
 
     @AfterEach

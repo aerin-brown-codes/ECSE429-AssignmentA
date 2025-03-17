@@ -10,15 +10,17 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
-import java.io.*;
+
 import org.junit.jupiter.api.AfterEach;
+import org.skyscreamer.jsonassert.JSONAssert;
+import org.skyscreamer.jsonassert.JSONCompareMode;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.AfterEach;
 
-public class Create_Todos {
+public class View_Multiple_Todos {
     private static final String BASE_URL = "http://localhost:4567/todos";
     private static Process appUnderTest;
     private static final String JAR_PATH = "/Users/laurenceperreault/Documents/Application_Being_Tested/runTodoManagerRestAPI-1.5.5.jar";
@@ -67,19 +69,12 @@ public class Create_Todos {
         return;
     }
     
-    @When("the user updates the todo with id 1 to have title wash dishes, description run dishwasher, and done status false via POST")
-    public void updatePostTodos() throws MalformedURLException, IOException {
+    @When("the user attempts to view all todos")
+    public void viewAllTodos() throws MalformedURLException, IOException {
         // arrange
         URL url = new URL(BASE_URL);
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
-        con.setRequestProperty("Content-Type", "application/json");
-        con.setRequestMethod("POST");
-        con.setDoOutput(true);
-        String jsonInputString = "{\"title\":\"wash dishes\",\"doneStatus\":false,\"description\":\"run dishwasher\"}";
-        try(OutputStream os = con.getOutputStream()) {
-            byte[] input = jsonInputString.getBytes("utf-8");
-            os.write(input, 0, input.length);
-        }
+        con.setRequestMethod("GET");
 
         // act
         int status = con.getResponseCode();
@@ -95,29 +90,27 @@ public class Create_Todos {
         con.disconnect();
     }
 
-    @Then("status code 201 is received")
-    public void assert201() {
-        assertEquals(201, status);
+    @Then("status code 200 is received")
+    public void assert200() {
+        assertEquals(200, status);
     }
 
-    @Then("a todo object is received with title wash dishes, description run dishwasher, and done status false")
+    @Then("the todos with ids 1 and 2 are returned")
     public void assertJsonSuccess() {
-        assertEquals("{\"id\":\"3\",\"title\":\"wash dishes\",\"doneStatus\":\"false\",\"description\":\"run dishwasher\"}", result);
+        JSONAssert.assertEquals("{\n" + //
+                        "  \"todos\": [\n" + //
+                        "    {\"id\": \"1\", \"title\": \"scan paperwork\", \"doneStatus\": \"false\", \"description\": \"\", \"tasksof\": [{\"id\": \"1\"}], \"categories\": [{\"id\": \"1\"}]},\n" + //
+                        "    {\"id\": \"2\", \"title\": \"file paperwork\", \"doneStatus\": \"false\", \"description\": \"\", \"tasksof\": [{\"id\": \"1\"}]}\n" + //
+                        "  ]\n" + //
+                        "}", result, JSONCompareMode.NON_EXTENSIBLE);
     }
 
-    @When("the user updates the todo with id 1 to have title wash dishes, description run dishwasher, and done status false via PUT")
-    public void updatePutTodos() throws MalformedURLException, IOException {
+    @When("the user attempts to view only todos with title of value file paperwork")
+    public void viewFilteredTodos() throws MalformedURLException, IOException {
         // arrange
-        URL url = new URL(BASE_URL + "/1");
+        URL url = new URL(BASE_URL + "?title=file%20paperwork");
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
-        con.setRequestProperty("Content-Type", "application/json");
-        con.setRequestMethod("POST");
-        con.setDoOutput(true);
-        String jsonInputString = "<todo><title>wash dishes</title><doneStatus>false</doneStatus><description>run dishwasher</description></todo>";
-        try(OutputStream os = con.getOutputStream()) {
-            byte[] input = jsonInputString.getBytes("utf-8");
-            os.write(input, 0, input.length);
-        }
+        con.setRequestMethod("GET");
 
         // act
         int status = con.getResponseCode();
@@ -131,32 +124,28 @@ public class Create_Todos {
         in.close();
         String result = content.toString();
         con.disconnect();
+    }    
+
+    @Then("the todo with id 2 is returned")
+    public void assertFilterSuccess() {
+        JSONAssert.assertEquals("{\n" + //
+                        "  \"todos\": [\n" + //
+                        "    {\"id\": \"2\", \"title\": \"file paperwork\", \"doneStatus\": \"false\", \"description\": \"\", \"tasksof\": [{\"id\": \"1\"}]}\n" + //
+                        "  ]\n" + //
+                        "}", result, JSONCompareMode.NON_EXTENSIBLE);
     }
 
-    @When("the user sends a PUT request for the todo with id 1 with no body")
-    public void emptyPost() throws MalformedURLException, IOException {
+    @When("the user attempts to view only todos with blah of value blah")
+    public void invalidFilter() throws MalformedURLException, IOException {
         // arrange
-        URL url = new URL(BASE_URL + "/1");
+        URL url = new URL(BASE_URL + "?blah=blah");
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
-        con.setRequestProperty("Content-Type", "application/json");
-        con.setRequestMethod("PUT");
-        con.setDoOutput(true);
-        String jsonInputString = "{}";
-        try(OutputStream os = con.getOutputStream()) {
-            byte[] input = jsonInputString.getBytes("utf-8");
-            os.write(input, 0, input.length);
-        }
+        con.setRequestMethod("GET");
 
         // act
         int status = con.getResponseCode();
-        InputStream errorStream = con.getErrorStream();
-        if (errorStream != null) {
-            BufferedReader in = new BufferedReader(new InputStreamReader(errorStream));
-        } else {
-            assertEquals(true, false);
-        }
         BufferedReader in = new BufferedReader(
-                new InputStreamReader(con.getErrorStream()));
+                new InputStreamReader(con.getInputStream()));
         String inputLine;
         StringBuilder content = new StringBuilder();
         while ((inputLine = in.readLine()) != null) {
@@ -165,16 +154,6 @@ public class Create_Todos {
         in.close();
         String result = content.toString();
         con.disconnect();
-    }
-
-    @Then("status code 400 is received")
-    public void assert400() {
-        assertEquals(400, status);
-    }
-    
-    @Then("the error message is title: field is mandatory")
-    public void assertError() {
-        assertEquals("{\"errorMessages\":[\"title : field is mandatory\"]}", result);
     }
 
     @AfterEach
@@ -189,3 +168,4 @@ public class Create_Todos {
         }
     }
 }
+
