@@ -6,8 +6,6 @@ Feature: Delete Project
   Background:
     Given the API is responsive
     And the database contains only the default objects
-    And the database contains the project with id 1
-    And the database does not contain a project with id 25
 
   Scenario: Delete a project with JSON (Normal Flow)
     When the user attempts to delete the project with id 1 with a JSON payload
