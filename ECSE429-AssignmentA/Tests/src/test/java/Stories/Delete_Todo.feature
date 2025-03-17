@@ -20,4 +20,4 @@ Feature: Update Todo
   Scenario: Delete a nonexistent todo (Error Flow)
     When the user attempts to delete the todo with id 25 with a JSON payload
     Then status code 404 is received
-    And the error message is "Could not find any instances with todos/25"
+    And the error message is Could not find any instances with todos/25
