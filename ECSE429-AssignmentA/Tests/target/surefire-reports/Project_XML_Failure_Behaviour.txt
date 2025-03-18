@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: Project_XML_Failure_Behaviour
--------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.568 s - in Project_XML_Failure_Behaviour

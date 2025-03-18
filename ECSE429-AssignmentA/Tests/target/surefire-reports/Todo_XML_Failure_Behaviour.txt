@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: Todo_XML_Failure_Behaviour
--------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.999 s - in Todo_XML_Failure_Behaviour
