@@ -1,0 +1,12 @@
+StepDefinitions/CreateProjectTests.class
+StepDefinitions/UpdateTodosTests.class
+StepDefinitions/ViewTodosTests.class
+StepDefinitions/DeleteProjectTests.class
+StepDefinitions/ViewTasksProjectsTests.class
+StepDefinitions/ViewMultipleTodosTests.class
+StepDefinitions/ViewMultipleProjectsTests.class
+StepDefinitions/DeleteTodoTests.class
+StepDefinitions/CreateTodoTests.class
+StepDefinitions/TestRunnerTest.class
+StepDefinitions/ViewProjectTests.class
+StepDefinitions/CucumberSpringConfiguration.class

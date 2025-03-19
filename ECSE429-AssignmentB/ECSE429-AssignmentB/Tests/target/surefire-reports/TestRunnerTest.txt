@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------------
+Test set: TestRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 49.115 s <<< FAILURE! - in TestRunnerTest
+Create a new project in JSON format but giving a XML format {Error Flow}  Time elapsed: 1.636 s  <<< ERROR!
+io.cucumber.core.runner.AmbiguousStepDefinitionsException: 
+"the error message is ""java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $""" matches more than one step definition:
+  "the error message is ""java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $""" in StepDefinitions.CreateProjectTests.assertErrorMessage()
+  "the error message is "{string}"" in StepDefinitions.ViewProjectTests.assertErrorMessage(java.lang.String)
+
+Delete a nonexistent project {Error Flow}  Time elapsed: 1.615 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the error is Could not find any instances with projects\/{int}' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("the error is Could not find any instances with projects\\\\/\\{int}")
+public void the_error_is_could_not_find_any_instances_with_projects() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Delete a nonexistent todo {Error Flow}  Time elapsed: 1.595 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the error message is Could not find any instances with todos/25' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("the error message is Could not find any instances with todos\\/{int}")
+public void the_error_message_is_could_not_find_any_instances_with_todos(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Update a todo to have no information {Error Flow}  Time elapsed: 1.606 s  <<< ERROR!
+java.io.IOException: Server returned HTTP response code: 400 for URL: http://localhost:4567/todos/1
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: http://localhost:4567/todos/1
+
+View a nonexistant project {Error Flow}  Time elapsed: 1.584 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the error message is "Could not find an instance with projects/25"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("the error message is {string}")
+public void the_error_message_is(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+View a nonexistant todo {Error Flow}  Time elapsed: 1.543 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the message is Could not find any instances with todos/25}' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("the message is Could not find any instances with todos\\/{int}}")
+public void the_message_is_could_not_find_any_instances_with_todos(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

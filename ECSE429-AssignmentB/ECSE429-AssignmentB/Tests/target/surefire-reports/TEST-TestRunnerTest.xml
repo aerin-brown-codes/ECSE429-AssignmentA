@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestRunnerTest" time="49.115" tests="30" errors="6" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/laurenceperreault/Documents/ECSE429-AssignmentB/ECSE429-AssignmentB/Tests/target/test-classes:/Users/laurenceperreault/Documents/ECSE429-AssignmentB/ECSE429-AssignmentB/Tests/target/classes:/Users/laurenceperreault/.m2/repository/org/springframework/spring-context/6.0.11/spring-context-6.0.11.jar:/Users/laurenceperreault/.m2/repository/org/springframework/spring-aop/6.0.11/spring-aop-6.0.11.jar:/Users/laurenceperreault/.m2/repository/org/springframework/spring-core/6.0.11/spring-core-6.0.11.jar:/Users/laurenceperreault/.m2/repository/org/springframework/spring-jcl/6.0.11/spring-jcl-6.0.11.jar:/Users/laurenceperreault/.m2/repository/org/springframework/spring-expression/6.0.11/spring-expression-6.0.11.jar:/Users/laurenceperreault/.m2/repository/org/springframework/spring-beans/6.0.11/spring-beans-6.0.11.jar:/Users/laurenceperreault/.m2/repository/org/springframework/spring-test/6.0.11/spring-test-6.0.11.jar:/Users/laurenceperreault/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.2/spring-boot-starter-test-3.1.2.jar:/Users/laurenceperreault/.m2/repository/org/springframework/boot/spring-boot-starter/3.1.2/spring-boot-starter-3.1.2.jar:/Users/laurenceperreault/.m2/repository/org/springframework/boot/spring-boot/3.1.2/spring-boot-3.1.2.jar:/Users/laurenceperreault/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.2/spring-boot-autoconfigure-3.1.2.jar:/Users/laurenceperreault/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.1.2/spring-boot-starter-logging-3.1.2.jar:/Users/laurenceperreault/.m2/repository/ch/qos/logback/logback-classic/1.4.8/logback-classic-1.4.8.jar:/Users/laurenceperreault/.m2/repository/ch/qos/logback/logback-core/1.4.8/logback-core-1.4.8.jar:/Users/laurenceperreault/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar:/Users/laurenceperreault/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/laurenceperreault/.m2/repository/org/slf4j/jul-to-slf4j/2.0.7/jul-to-slf4j-2.0.7.jar:/Users/laurenceperreault/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/laurenceperreault/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/laurenceperreault/.m2/repository/org/springframework/boot/spring-boot-test/3.1.2/spring-boot-test-3.1.2.jar:/Users/laurenceperreault/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.2/spring-boot-test-autoconfigure-3.1.2.jar:/Users/laurenceperreault/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/laurenceperreault/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/laurenceperreault/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/Users/laurenceperreault/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.0/jakarta.activation-api-2.1.0.jar:/Users/laurenceperreault/.m2/repository/net/minidev/json-smart/2.4.11/json-smart-2.4.11.jar:/Users/laurenceperreault/.m2/repository/net/minidev/accessors-smart/2.4.11/accessors-smart-2.4.11.jar:/Users/laurenceperreault/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/laurenceperreault/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/laurenceperreault/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/Users/laurenceperreault/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/laurenceperreault/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/laurenceperreault/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/laurenceperreault/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/Users/laurenceperreault/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.4/byte-buddy-agent-1.14.4.jar:/Users/laurenceperreault/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/laurenceperreault/.m2/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar:/Users/laurenceperreault/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/laurenceperreault/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/laurenceperreault/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/laurenceperreault/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/laurenceperreault/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/laurenceperreault/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/laurenceperreault/.m2/repository/org/junit/platform/junit-platform-suite/1.9.2/junit-platform-suite-1.9.2.jar:/Users/laurenceperreault/.m2/repository/org/junit/platform/junit-platform-suite-api/1.9.2/junit-platform-suite-api-1.9.2.jar:/Users/laurenceperreault/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.9.2/junit-platform-suite-engine-1.9.2.jar:/Users/laurenceperreault/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.9.2/junit-platform-suite-commons-1.9.2.jar:/Users/laurenceperreault/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar:/Users/laurenceperreault/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar:/Users/laurenceperreault/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/laurenceperreault/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/Users/laurenceperreault/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/laurenceperreault/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/laurenceperreault/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/cucumber-spring/7.14.0/cucumber-spring-7.14.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.14.0/cucumber-junit-platform-engine-7.14.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk@21/21.0.6/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/laurenceperreault/Documents/ECSE429-AssignmentB/ECSE429-AssignmentB/Tests/target/surefire/surefirebooter14325062368422119507.jar /Users/laurenceperreault/Documents/ECSE429-AssignmentB/ECSE429-AssignmentB/Tests/target/surefire 2025-03-18T22-46-56_012-jvmRun1 surefire10235750718352362627tmp surefire_016249591602324504925tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/laurenceperreault/Documents/ECSE429-AssignmentB/ECSE429-AssignmentB/Tests/target/test-classes:/Users/laurenceperreault/Documents/ECSE429-AssignmentB/ECSE429-AssignmentB/Tests/target/classes:/Users/laurenceperreault/.m2/repository/org/springframework/spring-context/6.0.11/spring-context-6.0.11.jar:/Users/laurenceperreault/.m2/repository/org/springframework/spring-aop/6.0.11/spring-aop-6.0.11.jar:/Users/laurenceperreault/.m2/repository/org/springframework/spring-core/6.0.11/spring-core-6.0.11.jar:/Users/laurenceperreault/.m2/repository/org/springframework/spring-jcl/6.0.11/spring-jcl-6.0.11.jar:/Users/laurenceperreault/.m2/repository/org/springframework/spring-expression/6.0.11/spring-expression-6.0.11.jar:/Users/laurenceperreault/.m2/repository/org/springframework/spring-beans/6.0.11/spring-beans-6.0.11.jar:/Users/laurenceperreault/.m2/repository/org/springframework/spring-test/6.0.11/spring-test-6.0.11.jar:/Users/laurenceperreault/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.2/spring-boot-starter-test-3.1.2.jar:/Users/laurenceperreault/.m2/repository/org/springframework/boot/spring-boot-starter/3.1.2/spring-boot-starter-3.1.2.jar:/Users/laurenceperreault/.m2/repository/org/springframework/boot/spring-boot/3.1.2/spring-boot-3.1.2.jar:/Users/laurenceperreault/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.2/spring-boot-autoconfigure-3.1.2.jar:/Users/laurenceperreault/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.1.2/spring-boot-starter-logging-3.1.2.jar:/Users/laurenceperreault/.m2/repository/ch/qos/logback/logback-classic/1.4.8/logback-classic-1.4.8.jar:/Users/laurenceperreault/.m2/repository/ch/qos/logback/logback-core/1.4.8/logback-core-1.4.8.jar:/Users/laurenceperreault/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar:/Users/laurenceperreault/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/laurenceperreault/.m2/repository/org/slf4j/jul-to-slf4j/2.0.7/jul-to-slf4j-2.0.7.jar:/Users/laurenceperreault/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/laurenceperreault/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/laurenceperreault/.m2/repository/org/springframework/boot/spring-boot-test/3.1.2/spring-boot-test-3.1.2.jar:/Users/laurenceperreault/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.2/spring-boot-test-autoconfigure-3.1.2.jar:/Users/laurenceperreault/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/laurenceperreault/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/laurenceperreault/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/Users/laurenceperreault/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.0/jakarta.activation-api-2.1.0.jar:/Users/laurenceperreault/.m2/repository/net/minidev/json-smart/2.4.11/json-smart-2.4.11.jar:/Users/laurenceperreault/.m2/repository/net/minidev/accessors-smart/2.4.11/accessors-smart-2.4.11.jar:/Users/laurenceperreault/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/laurenceperreault/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/laurenceperreault/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/Users/laurenceperreault/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/laurenceperreault/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/laurenceperreault/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/laurenceperreault/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/Users/laurenceperreault/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.4/byte-buddy-agent-1.14.4.jar:/Users/laurenceperreault/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/laurenceperreault/.m2/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar:/Users/laurenceperreault/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/laurenceperreault/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/laurenceperreault/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/laurenceperreault/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/laurenceperreault/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/laurenceperreault/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/laurenceperreault/.m2/repository/org/junit/platform/junit-platform-suite/1.9.2/junit-platform-suite-1.9.2.jar:/Users/laurenceperreault/.m2/repository/org/junit/platform/junit-platform-suite-api/1.9.2/junit-platform-suite-api-1.9.2.jar:/Users/laurenceperreault/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.9.2/junit-platform-suite-engine-1.9.2.jar:/Users/laurenceperreault/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.9.2/junit-platform-suite-commons-1.9.2.jar:/Users/laurenceperreault/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar:/Users/laurenceperreault/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar:/Users/laurenceperreault/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/laurenceperreault/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/Users/laurenceperreault/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/laurenceperreault/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/laurenceperreault/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/cucumber-spring/7.14.0/cucumber-spring-7.14.0.jar:/Users/laurenceperreault/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.14.0/cucumber-junit-platform-engine-7.14.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/laurenceperreault"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk@21/21.0.6/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/laurenceperreault/Documents/ECSE429-AssignmentB/ECSE429-AssignmentB/Tests"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/laurenceperreault/Documents/ECSE429-AssignmentB/ECSE429-AssignmentB/Tests/target/surefire/surefirebooter14325062368422119507.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.6"/>
+    <property name="user.name" value="laurenceperreault"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/laurenceperreault/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/2y/_fq8xxms0dlf0ggc1fm_g74w0000gn/T/"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="/Users/laurenceperreault/Documents/ECSE429-AssignmentB/ECSE429-AssignmentB/Tests"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/laurenceperreault/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="21.0.6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Create a new Project with JSON {Normal Flow}" classname="StepDefinitions.TestRunnerTest" time="3.366"/>
+  <testcase name="Create a new Project with XML {Alternative Flow}" classname="StepDefinitions.TestRunnerTest" time="1.593"/>
+  <testcase name="Create a new project in JSON format but giving a XML format {Error Flow}" classname="StepDefinitions.TestRunnerTest" time="1.636">
+    <error message="&quot;the error message is &quot;&quot;java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $&quot;&quot;&quot; matches more than one step definition:&#10;  &quot;the error message is &quot;&quot;java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $&quot;&quot;&quot; in StepDefinitions.CreateProjectTests.assertErrorMessage()&#10;  &quot;the error message is &quot;{string}&quot;&quot; in StepDefinitions.ViewProjectTests.assertErrorMessage(java.lang.String)" type="io.cucumber.core.runner.AmbiguousStepDefinitionsException">io.cucumber.core.runner.AmbiguousStepDefinitionsException: 
+"the error message is ""java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $""" matches more than one step definition:
+  "the error message is ""java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $""" in StepDefinitions.CreateProjectTests.assertErrorMessage()
+  "the error message is "{string}"" in StepDefinitions.ViewProjectTests.assertErrorMessage(java.lang.String)
+</error>
+    <system-out><![CDATA[
+Sending Request:
+Payload: <project><title>House work</title><description>Household chores</description></project>
+Content-Type: application/xml
+Raw Response: {"id":"2","title":"House work","completed":"false","active":"false","description":"Household chores"}
+]]></system-out>
+  </testcase>
+  <testcase name="Create a new todo with JSON {Normal Flow}" classname="StepDefinitions.TestRunnerTest" time="1.596"/>
+  <testcase name="Create a new todo with XML {Alternate Flow}" classname="StepDefinitions.TestRunnerTest" time="1.605"/>
+  <testcase name="Create todo with no title {Error Flow}" classname="StepDefinitions.TestRunnerTest" time="1.585"/>
+  <testcase name="Delete a project with JSON {Normal Flow}" classname="StepDefinitions.TestRunnerTest" time="1.579"/>
+  <testcase name="Delete a project with XML {Alternate Flow}" classname="StepDefinitions.TestRunnerTest" time="1.573"/>
+  <testcase name="Delete a nonexistent project {Error Flow}" classname="StepDefinitions.TestRunnerTest" time="1.615">
+    <error message="The step &apos;the error is Could not find any instances with projects\/{int}&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@Then(&quot;the error is Could not find any instances with projects\\\\/\\{int}&quot;)&#10;public void the_error_is_could_not_find_any_instances_with_projects() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException">io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the error is Could not find any instances with projects\/{int}' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("the error is Could not find any instances with projects\\\\/\\{int}")
+public void the_error_is_could_not_find_any_instances_with_projects() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+  </testcase>
+  <testcase name="Delete a todo with JSON {Normal Flow}" classname="StepDefinitions.TestRunnerTest" time="1.582"/>
+  <testcase name="Delete a todo with XML {Alternate Flow}" classname="StepDefinitions.TestRunnerTest" time="1.583"/>
+  <testcase name="Delete a nonexistent todo {Error Flow}" classname="StepDefinitions.TestRunnerTest" time="1.595">
+    <error message="The step &apos;the error message is Could not find any instances with todos/25&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@Then(&quot;the error message is Could not find any instances with todos\\/{int}&quot;)&#10;public void the_error_message_is_could_not_find_any_instances_with_todos(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException">io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the error message is Could not find any instances with todos/25' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("the error message is Could not find any instances with todos\\/{int}")
+public void the_error_message_is_could_not_find_any_instances_with_todos(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+  </testcase>
+  <testcase name="Update a todo with POST {Normal Flow}" classname="StepDefinitions.TestRunnerTest" time="1.571"/>
+  <testcase name="Update a todo with PUT {Alternate Flow}" classname="StepDefinitions.TestRunnerTest" time="1.566"/>
+  <testcase name="Update a todo to have no information {Error Flow}" classname="StepDefinitions.TestRunnerTest" time="1.606">
+    <error message="Server returned HTTP response code: 400 for URL: http://localhost:4567/todos/1" type="java.io.IOException">java.io.IOException: Server returned HTTP response code: 400 for URL: http://localhost:4567/todos/1
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: http://localhost:4567/todos/1
+</error>
+  </testcase>
+  <testcase name="View all projects {Normal Flow}" classname="StepDefinitions.TestRunnerTest" time="1.565"/>
+  <testcase name="View filtered projects {Alternate Flow}" classname="StepDefinitions.TestRunnerTest" time="1.556"/>
+  <testcase name="Filter by nonexistant parameter {Error Flow}" classname="StepDefinitions.TestRunnerTest" time="1.55"/>
+  <testcase name="Filter by nonexistant parameter {Error Flow}" classname="StepDefinitions.TestRunnerTest" time="1.561"/>
+  <testcase name="View all todos {Normal Flow}" classname="StepDefinitions.TestRunnerTest" time="1.555"/>
+  <testcase name="View filtered todos {Alternate Flow}" classname="StepDefinitions.TestRunnerTest" time="1.541"/>
+  <testcase name="View a single todo by ID with JSON format {Normal Flow}" classname="StepDefinitions.TestRunnerTest" time="1.552"/>
+  <testcase name="View a single todo by ID with XML format {Alternative Flow}" classname="StepDefinitions.TestRunnerTest" time="1.55"/>
+  <testcase name="View a nonexistant project {Error Flow}" classname="StepDefinitions.TestRunnerTest" time="1.584">
+    <error message="The step &apos;the error message is &quot;Could not find an instance with projects/25&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@Then(&quot;the error message is {string}&quot;)&#10;public void the_error_message_is(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException">io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the error message is "Could not find an instance with projects/25"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("the error message is {string}")
+public void the_error_message_is(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+  </testcase>
+  <testcase name="View the tasks of project by ID with JSON format {Normal Flow}" classname="StepDefinitions.TestRunnerTest" time="1.57"/>
+  <testcase name="View the tasks of project by ID with XML format {Alternative Flow}" classname="StepDefinitions.TestRunnerTest" time="1.555"/>
+  <testcase name="View the tasks of a nonexistant project {Error Flow}" classname="StepDefinitions.TestRunnerTest" time="1.541"/>
+  <testcase name="View a single todo by ID with JSON {Normal Flow}" classname="StepDefinitions.TestRunnerTest" time="1.539"/>
+  <testcase name="View a single todo by ID with XML format {Alternate Flow}" classname="StepDefinitions.TestRunnerTest" time="1.53"/>
+  <testcase name="View a nonexistant todo {Error Flow}" classname="StepDefinitions.TestRunnerTest" time="1.543">
+    <error message="The step &apos;the message is Could not find any instances with todos/25}&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@Then(&quot;the message is Could not find any instances with todos\\/{int}}&quot;)&#10;public void the_message_is_could_not_find_any_instances_with_todos(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException">io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the message is Could not find any instances with todos/25}' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("the message is Could not find any instances with todos\\/{int}}")
+public void the_message_is_could_not_find_any_instances_with_todos(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+  </testcase>
+</testsuite>
